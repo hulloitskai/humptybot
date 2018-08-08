@@ -1,0 +1,38 @@
+## Repository-specific
+# The compiled binary
+/humptybot*
+# Vendor packages (tracking will be disabled for this repository)
+/vendor/
+# Environment file
+.env
+
+## Go
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+## -----
+
+## BASE – System Files – Mac OS X
+.DS_Store
+.DS_Store?
+*.swp
+
+## BASE – System Files – Windows
+Thumbs.db
+
+## IDE - VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
