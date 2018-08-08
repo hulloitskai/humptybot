@@ -1,9 +1,9 @@
-version: "3.4"
+version: '3.4'
 
 services:
-  express:
+  humptybot:
     build:
       context: .
-      target: "production"
+      target: 'production'
     image: stevenxie/humptybot:latest
     container_name: hbot

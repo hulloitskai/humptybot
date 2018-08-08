@@ -8,7 +8,7 @@ WORKDIR /go/src/github.com/steven-xie/humptybot
 COPY . .
 
 # Install dependencies...
-RUN apk add curl
+RUN apk add curl git
 RUN curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 
 ENV GOPATH="/go"
